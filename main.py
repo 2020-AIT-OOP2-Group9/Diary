@@ -1,13 +1,8 @@
-
+from diaries.DiaryKoizumi import DiaryKoizumi
 from diaries.NishioDiaryNew import NishioDiaryNew
 from diaries.DiarySample import DiarySample
-
-diaries = [DiarySample(), NishioDiaryNew()]
-
 from diaries.daikidiary import daikidaiary
-
-diaries = [DiarySample(), daikidaiary() ,]
-
+diaries = [DiarySample(), daikidaiary() ,NishioDiaryNew(),DiaryKoizumi()]
 
 for d in diaries:
     print("---------------------------------")
