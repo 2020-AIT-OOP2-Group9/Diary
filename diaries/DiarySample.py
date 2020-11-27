@@ -7,7 +7,7 @@ class DiarySample(AbstractDiary):
         return "2020-11-25"
 
     def get_summary(self):
-        return "なにもない一日だった"
+        return "何もない1日だった"
 
     def get_author(self):
         return "Sample"
