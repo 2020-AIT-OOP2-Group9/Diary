@@ -1,7 +1,15 @@
-from diaries.DiarySample import DiarySample
-from diaries.Daikidiary import Daikidaiary
+from diaries.DiaryKoizumi import DiaryKoizumi
+from diaries.NishioDiaryNew import NishioDiaryNew
+from diaries.DiarySample import DiarySample 
+from diaries.DiaryTakeichi import DiaryTakeichi
 
-diaries = [DiarySample(),Daikidaiary() ,]
+
+from diaries.YamaguchiDaiary import YamaguchiDaiary
+from diaries.hibikidiary import hibikidiary
+
+diaries = [DiarySample(),NishioDiaryNew(),DiaryKoizumi(),YamaguchiDaiary(),hibikidiary(),DiaryTakeichi()]
+
+
 
 for d in diaries:
     print("---------------------------------")
